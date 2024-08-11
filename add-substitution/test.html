@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: Bitter;
+            src: url(" ./output/test.ttf");
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 90vh;
+            background: gray;
+            color: white
+        }
+
+        main {
+            /* max-width: 36rem; */
+        }
+
+        p {
+            font-family: Bitter, sans-serif;
+            font-size: 24px;
+            padding: .5em;
+            border-radius: 4px;
+        }
+
+        p:focus {
+            outline: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <p contenteditable>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam libero sit corrupti voluptate minus culpa sequi ipsa magnam in voluptatibus. Consectetur adipisicing elit. Modi debitis quae dolore esse nostrum odio beatae ipsum placeat reiciendis deserunt sapiente repellat molestiae atque ratione velit, nisi, possimus explicabo suscipit.</p>
+    </main>
+</body>
+
+</html>

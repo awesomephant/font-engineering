@@ -1,0 +1,4 @@
+feature liga {
+    sub m a x by m_a_x;
+    sub m_a_x' by n a m e one comma space n a m e two comma space n a m e three comma space n a m e four comma space n a m e five comma space n a m e six;
+} liga;
