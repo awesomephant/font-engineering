@@ -2,8 +2,8 @@
 
 ## Notes
 
-- We want to do a type 6 substitution
-- My first thought was to build the tables directly in Python, but that's impractical'
+- We want to do a type 5 substitution
+- My first thought was to build the tables directly in Python, but that's impractical
 - Should use [`fealib`](https://fonttools.readthedocs.io/en/latest/feaLib/index.html) instead to generate the tables from plain-text feature declarations.
 
 ## Links
